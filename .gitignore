@@ -2,3 +2,4 @@ API_KEYS.py
 .venv/
 .idea/
 __pycache__/
+chat_log.json
