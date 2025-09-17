@@ -11,4 +11,6 @@ if __name__ == "__main__":
             break
 
         chat_response = ask_chatbot.ask(user_input, messages)
-        print(f"{chat_response}\n")
+        print("".center(50, "-"))
+        print(f"{chat_response}")
+        print("".center(50, "-"))
