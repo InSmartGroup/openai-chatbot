@@ -12,7 +12,7 @@ def load_chat():
             return json.load(file)
 
     except (FileNotFoundError, json.decoder.JSONDecodeError):
-        return {
+        return [{
             "role": "system",
             "content": "You are a helpful assistant who always provides meaningful and detailed responses."
-        }
+        }]
